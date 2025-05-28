@@ -1,5 +1,7 @@
 'use client';
 
+import { Plus, Minus, RotateCcw } from 'lucide-react';
+
 export default function Home() {
   return (
     <>
@@ -14,9 +16,15 @@ export default function Home() {
                 <div className="text-5xl font-bold text-gray-800">0</div>
               </div>
               <div className="flex justify-center gap-4">
-                <button className="bg-red-500 text-white w-16 h-16 rounded-full">-</button>
-                <button className="bg-gray-500 text-white w-16 h-16 rounded-full">Reset</button>
-                <button className="bg-green-500 text-white w-16 h-16 rounded-full">+</button>
+                <button className="bg-red-500 text-white w-16 h-16 rounded-full flex items-center justify-center">
+                  <Minus className= "w-6 h-6" />
+                </button>
+                <button className="bg-gray-500 text-white w-16 h-16 rounded-full flex items-center justify-center">
+                  <RotateCcw className= "w-6 h-6" />
+                </button>
+                <button className="bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center">
+                  <Plus className= "w-6 h-6" />
+                </button>
               </div>
 
             </div>
