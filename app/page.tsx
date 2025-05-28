@@ -12,8 +12,10 @@ export default function Home() {
             <div className="text-center mb-8">
               <div className="text-5xl font-bold text-gray-800">0</div>
             </div>
-            <button>-</button>
-            <button>+</button>
+            <div className="flex justify-center gap-4">
+              <button className="bg-red-500 text-white w-16 h-16 rounded-full">-</button>
+              <button className="bg-green-500 text-white w-16 h-16 rounded-full">+</button>
+            </div>
           </div>
         </div>
       </div>
