@@ -9,13 +9,16 @@ export default function Home() {
             <div className="text-center mb-8">
               <h1 className="text-3xl font-bold text-gray-800">🔢カウンターアプリ</h1>
             </div>
-            <div className="text-center mb-8">
-              <div className="text-5xl font-bold text-gray-800">0</div>
-            </div>
-            <div className="flex justify-center gap-4">
-              <button className="bg-red-500 text-white w-16 h-16 rounded-full">-</button>
-              <button className="bg-gray-500 text-white w-16 h-16 rounded-full">Reset</button>
-              <button className="bg-green-500 text-white w-16 h-16 rounded-full">+</button>
+            <div className="bg-white rounded-3xl shadow-xl p-8">
+              <div className="text-center mb-8">
+                <div className="text-5xl font-bold text-gray-800">0</div>
+              </div>
+              <div className="flex justify-center gap-4">
+                <button className="bg-red-500 text-white w-16 h-16 rounded-full">-</button>
+                <button className="bg-gray-500 text-white w-16 h-16 rounded-full">Reset</button>
+                <button className="bg-green-500 text-white w-16 h-16 rounded-full">+</button>
+              </div>
+
             </div>
           </div>
         </div>
