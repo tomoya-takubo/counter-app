@@ -14,6 +14,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center gap-4">
               <button className="bg-red-500 text-white w-16 h-16 rounded-full">-</button>
+              <button className="bg-gray-500 text-white w-16 h-16 rounded-full">Reset</button>
               <button className="bg-green-500 text-white w-16 h-16 rounded-full">+</button>
             </div>
           </div>
